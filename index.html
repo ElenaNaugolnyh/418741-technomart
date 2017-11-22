@@ -53,19 +53,19 @@
 <!-- Основное содержимое -->
 <main>
   <h1 class="visualli-hidden">Магазин "Техномарт"</h1>
-  <section class="product category"
+  <section class="product category">
 
   <h2 class="visually-hidden">Категории товаров</h2>
   <!--Перечень , состоящий из блоков, пока не знаю как сделать. Пропускаю  -->
 </section>
 
 <!--Раздел популярных товаров  -->
-<section class="popular-goods">
+<div class="popular-goods">
   <section class="title-popular-goods">
    <h2>Популярные товары:</h2>
    <a href="#">Все популярные товары</a>
   </section>
- <section class="popular-goods-list">
+ <div class="popular-goods-list">
    <ul class="popular-goods-catalog">
     <li>
      <h3>Перфоратор BOSCH BFG 9000</h3>
@@ -93,16 +93,15 @@
      <a href="today-price">12500 Р.</a>
    </li>
    </ul>
-  </section>
-</section>
+ </div>
+</div>
 
 <!--Популярные производители  -->
-<section class="popular-brands">
  <section class="title-popular-brands">
   <h2>Популярные производители:</h2>
   <a href="#">Все производители</a>
  </section>
- <section class="popular-brands-list">
+ <div class="popular-brands-list">
   <ul class="popular-brands-catalog">
     <li><a href="#"><img src="img/brand-bosch.jpg" width="122" height="32" alt="BOSCH"></a>
     </li>
@@ -121,11 +120,9 @@
     <li><a href="#"><img src="img/brand-metabo.jpg" width="155" height="55" alt="Metabo"></a>
     </li>
   </ul>
- </section>
-</section>
+</div>
 
 <!-- Сервис -->
-<section class="services">
  <section class="title-service">
   <h2 class="title-services">Сервисы</h2>
   <b>Хороший интернет-магазин отличается от плохого не только ценами!</b>
@@ -138,29 +135,34 @@
             <li class="services-name-item">Кредит</li>
           </ul>
  </div>
- <div class="services-description">
+  <section class="services-description">
             <h3 class="title-service-description">Доставка</h3>
             <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!
 Ведь мы неплохо зарабатываем, поднимая его на ваш этаж!</p>
 <!--Картинка выглядит как фоновая. Мне кажется она -смысловая. Не знаю, добавлять или нет (грузовик)  -->
-</div>
-</section>
+  </section>
 
 <section class="information">
   <h2 class="title title-information">Магазин "Техномарт"</h2>
   <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
            строительства не оставит равнодушными любителей сэкономит на гастарбайтерах.</p>
-         <p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>
+  <p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>
            Техномарт работает со многими транспортными компаниями:</p>
-         <ul class="partners-list">
-           <li class="partners-item">Деловые линии</li>
-           <li class="partners-item">Автотрейдинг</li>
-           <li class="partners-item">ЖелДорЭкспедиция</li>
-</ul>
 </section>
-</section>
+<div class="partners">
+  <ul class="partners-list">
+    <li>Деловые линии</li>
+    <li>Автотрейдинг</li>
+    <li>ЖелДорЭкспедиция</li>
+  </ul>
+  <a class="mainpage-link" href="ourcompany.html">Подробнее о компании</a>
+</div>
+
 <section class="location">
   <h2 class="title title-location">Контакты</h2>
+  <p>Вы можете забрать товар сами, заехав в наш офис:</p>
+  <a href="#"><img src="assets/img/map.jpg" alt="Расположение офиса на карте"></a>
+  <a class="mappage-link" href="feedback.html">Заблудились? Напишите нам!</a>
 </section>
 </main>
 
