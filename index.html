@@ -6,14 +6,23 @@
   </head>
   <body>
 <header class="main-header">
-  <nav class="main-navigation">
-    <ul class="top-navigation">
-      <li class="search-link"><a href="search.html">Поиск</a></li>
+  <div class="header-top">
+    <div class="search-link"><a href="search.html"><span class="icon-find"></span>Поиск</a>
+    </div>
       <!-- Будет вставлена форма поиска -->
-      <li class="bookmarks-link"><a href="bookmarks.html">Закладки</a></li>
-      <li class="basket-link"><a href="basket.html">Корзина</a></li>
-      <li><a href="checkout.html">Оформить заказ </a></li>
-    </ul>
+    <div class="bookmarks-link"><a href="bookmarks.html"><span class="icon-find"></span>Закладки</a>
+          <span class="mookmarks-count">0</span>
+    </div>
+
+    <div class="basket-link"><a href="basket.html"><span class="icon-basket"></span>Корзина</a>
+         <span class="basket-count">0</span>
+    </div>
+
+    <div class="checkout"><a href="checkout.html">Оформить заказ</a>
+    </div>
+  </div>
+
+<nav class="footer-navigation">
     <ul class="site-navigation">
       <li><a href="home.html">Главная</a></li>
       <li><a href="company.html">Компания</a></li>
@@ -45,14 +54,24 @@
 <main>
   <h1 class="visualli-hidden">Магазин "Техномарт"</h1>
   <section class="product category"
+
   <h2 class="visually-hidden">Категории товаров</h2>
   <!--Перечень , состоящий из блоков, пока не знаю как сделать. Пропускаю  -->
 </section>
+
+<!--Раздел популярных товаров  -->
 <section class="popular-goods">
-  <h2 class="title title-popular-goods">Популярные товары</h2>
+  <div class="title-popular-goods">
+   <h2>Популярные товары</h2>
+   <a href="#">Все популярные товары</a>
+ </div>
+
+ <div class="popular-goods-list">
+
 </section>
+
 <section class="popular-brands">
-  <h2 class="title title-popular-brands">Популярные производители</h2>
+  <h2 class="title-popular-brands">Популярные производители</h2>
 </section>
 <section class="service">
   <h2 class="title title-services">Сервисы</h2>
