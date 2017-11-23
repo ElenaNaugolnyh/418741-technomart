@@ -7,9 +7,11 @@
   <body>
 <header class="main-header">
   <div class="header-top">
-    <div class="search-link"><a href="search.html"><span class="icon-find"></span>Поиск</a>
+    <p class="logo">Техномарт</p>
+    <!-- Не понимаю, когда оставлять значек для иконки (в <span>), а когда ничего не оставлять, будет псевдоэлемент -->
+    <div class="search-link"><span class="icon-find"></span>Поиск
     </div>
-      <!-- Будет вставлена форма поиска -->
+    <!-- Будет вставлена форма поиска. И псевдо иконка -->
     <div class="bookmarks-link"><a href="bookmarks.html"><span class="icon-find"></span>Закладки</a>
           <span class="mookmarks-count">0</span>
     </div>
@@ -21,32 +23,31 @@
     <div class="checkout"><a href="checkout.html">Оформить заказ</a>
     </div>
   </div>
-
-<nav class="footer-navigation">
-    <ul class="site-navigation">
-      <li><a href="home.html">Главная</a></li>
-      <li><a href="company.html">Компания</a></li>
-      <li><a href="catalog.html">Каталог</a></li>
-      <li><a href="news.html">Новости</a></li>
-      <li><a href="shares.html"> Спецпредложения</a></li>
-      <li><a href="delivery.html">Доставка</a></li>
-      <li><a href="contacts.html">Контакты</a></li>
-    </ul>
-    <ul class="user-navigation">
-      <li class="login-link">Вход</li>
-      <li class="check-in">Регистрация</li>
-    </ul>
+  <p class="purpose">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+  <!--в названии последующего класса, пытаюсь указать иконку телефонной трубки.Не уверена-->
+  <div class="Phone-icon">
+    <button>+7(812)555-05-55</button>
+  </div>
+  <div class="adress">
+    <p>г.Санкт-Петербург, ул. Б Конюшенная, д.19/8</p>
+  </div>
+  <nav class="user-navigation">
+   <ul class="user-navigation-list">
+    <li class="login-link">Вход</li>
+    <li class="check-in">Регистрация</li>
+   </ul>
   </nav>
-  <!-- мне кажется, что это логотип но я не знаю как его прописать -->
-<p class="logo">Техномарт</p>
-<p class="purpose">Интернет-магазин строительных материалов и инструментов для ремонта</p>
-<!--в названии последующего класса, пытаюсь указать иконку телефонной трубки.Не уверена-->
-<div class="Phone-icon">
-  <button>+7(812)555-05-55</button>
-</div>
-<div class="adress">
-  <p>г.Санкт-Петербург, ул. Б Конюшенная, д.19/8</p>
-</div>
+  <nav class="main-navigation">
+   <ul class="site-navigation">
+    <li><a href="home.html">Главная</a></li>
+    <li><a href="company.html">Компания</a></li>
+    <li><a href="catalog.html">Каталог</a></li>
+    <li><a href="news.html">Новости</a></li>
+    <li><a href="shares.html"> Спецпредложения</a></li>
+    <li><a href="delivery.html">Доставка</a></li>
+    <li><a href="contacts.html">Контакты</a></li>
+   </ul>
+  </nav>
 </header>
 
 
