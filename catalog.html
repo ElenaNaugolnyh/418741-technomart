@@ -50,7 +50,7 @@
 
 <!-- Основное содержимое -->
 <main>
-  <h1 class="visually-hidden">Каталог товаров</h1>
+  <h1>Перфораторы</h1>
   <ul class="breadcrumbs">
     <li><a href="index.html" class="home-link">Главная</a></li>
     <!--To do. Иконка домик.потом у класса home-link добавить бэкграунд домик и сделать размер шрифта нулевой, чтобы надпись спряталась -->
@@ -58,20 +58,33 @@
     <li><a href="index.html">Инструмент</a></li>
     <li class="breadcrumbs-current">Перфораторы</li>
   </ul>
-  <div class="selection parameters">
-    <section class="filter">
+  <section class="filter">
     <h2>Фильтр</h2>
   <!-- Тут будет форма -->
-   </section>
-   <section class="sorting">
-  	<h2>Сортировка:</h2>
-  	<!--- Тут будет разметка формы сортировки -->
-   </section>
-  </div>
+  </section>
 
 <!--Перечень товара  -->
  <section class="catalog">
 	<h2>Список перфораторов</h2>
+
+<!-- Сортировка. Ссылки -->
+  <section class="sorting">
+    <h2>Сортировка:</h2>
+    <ul>
+      <li><a href="index.html">Каталог</a>
+      <li><a href="#">По цене</a></li>
+      <li><a href="#">По типу</a></li>
+      <li><a href="#">По функционалу</a></li>
+      <li>
+      <button class="sort-button">ascending</button>
+      </li>
+     <li>
+      <button class="sort-button">descending</button>
+     </li>
+    </ul>
+  </section>
+
+<!-- Список перфораторов -->
   <div class="catalog-perforators">
    <ul class="catalog-perforators-list">
 		<li class="catalog-item">
@@ -100,10 +113,10 @@
 	  </p>
    </li>
 
-	 <li class="catalog-item">
+	 <li class="catalog-item_new">
 		<h3>Перфоратор Bosch BFG 2000</h3>
     <!-- To do. catalog-item__new =  в стилях для этого класса добавим плашку. Абзац с new нужно убрать. -->
-		<p class="catalog-item-image" class="catalog-item__new">
+		<p class="catalog-item-image">
 		 <a href="catalog-item.html">
 			<img src="img/Product-3.jpg" width="220" height="165" alt="Перфоратор Bosch BFG 2000">
 		 </a>
@@ -113,7 +126,7 @@
 		 <a class="today-price" href="catalog-item.html">12500 P.</a>
 		</p>
 	</li>
-  <!-- есть второй слой. Пока не трогаем -->
+  <!-- есть второй слой. Пока не трогаем,позже -->
 
 	<li class="catalog-item">
 	 <h3>Перфоратор Bosch BFG 3000</h3>
@@ -128,10 +141,10 @@
 	 </p>
  </li>
 
- <li class="catalog-item">
+ <li class="catalog-item_new">
 	<h3>Перфоратор Bosch BFG 6000</h3>
 	<!-- To do. catalog-item__new =  в стилях для этого класса добавим плашку. Абзац с new нужно убрать. -->
-	<p class="catalog-item-image" class="catalog-item__new">
+	<p class="catalog-item-image">
 	 <a href="catalog-item.html">
 		<img src="img/Product-5.jpg" width="220" height="165" alt="Перфоратор Bosch BFG 6000">
 	 </a>
@@ -155,10 +168,10 @@
 	 </p>
 </li>
 
- <li class="catalog-item">
+ <li class="catalog-item_new">
   <h3>Перфоратор Bosch BFG 3000</h3>
   <!-- To do. catalog-item__new =  в стилях для этого класса добавим плашку. Абзац с new нужно убрать. -->
-	<p class="catalog-item-image" class="catalog-item__new">
+	<p class="catalog-item-image">
 	 <a href="catalog-item.html">
 	  <img src="img/Product-7.jpg" width="220" height="165" alt="Перфоратор Bosch BFG 3000">
 	 </a>
@@ -199,12 +212,12 @@
  </div>
 </section>
 
-  <!--Пангинация страниц  -->
-  <ul class="pangination-list">
-    <li class="pangination-item"><a>1</a></li>
-    <li class="pangination-item"><a href="#">2</a></li>
-    <li class="pangination-item"><a href="#">3</a></li>
-    <li class="pangination-item"><a href="#">следующая</a></li>
+  <!--Пагинация страниц  -->
+  <ul class="pagination-list">
+    <li class="pagination-item"><a>1</a></li>
+    <li class="pagination-item"><a href="#">2</a></li>
+    <li class="pagination-item"><a href="#">3</a></li>
+    <li class="pagination-item"><a href="#">следующая</a></li>
   </ul>
 
   <!-- О перфораторе -->
