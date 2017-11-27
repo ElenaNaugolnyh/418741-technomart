@@ -8,14 +8,12 @@
 <header class="main-header">
   <div class="header-top">
     <p class="logo">Техномарт</p>
-    <!-- Не понимаю, когда оставлять значек для иконки (в <span>), а когда ничего не оставлять, будет псевдоэлемент -->
     <div class="search-link"><span class="icon-find"></span>Поиск
     </div>
     <!-- Будет вставлена форма поиска. И псевдо иконка -->
     <div class="bookmarks-link"><a href="bookmarks.html"><span class="icon-find"></span>Закладки</a>
           <span class="mookmarks-count">0</span>
     </div>
-
     <div class="basket-link"><a href="basket.html"><span class="icon-basket"></span>Корзина</a>
          <span class="basket-count">10</span>
     </div>
@@ -50,16 +48,18 @@
   </nav>
 </header>
 
-<main class="catalog-conteiner">
+<!-- Основное содержимое -->
+<main>
   <h1 class="visually-hidden">Каталог товаров</h1>
+  <!-- ??? правильноли вставлена иконка для домика? -->
+  <span class="icon-house"></span>
   <ul class="breadcrumbs">
-    <!-- не знаю как пометить домик. Это псевдоэлемент? -->
     <li><a href="index.html">Каталог</a></li>
     <li><a href="index.html">Инструмент</a></li>
     <li class="breadcrumbs-current">Перфораторы</li>
   </ul>
   <div class="selection parameters">
-   <section class="filters">
+    <section class="filter">
     <h2>Фильтр</h2>
   <!-- Тут будет форма -->
    </section>
@@ -114,7 +114,7 @@
 		 <a class="today-price" href="catalog-item.html">12500 P.</a>
 		</p>
 	</li>
-  <!-- есть второй слой. Не знаю как правильно оформить -->
+  <!-- есть второй слой. Пока не трогаем -->
 
 	<li class="catalog-item">
 	 <h3>Перфоратор Bosch BFG 3000</h3>
@@ -122,16 +122,17 @@
 		<a href="catalog-item.html">
 		 <img src="img/Product-4.jpg" width="220" height="165" alt="Перфоратор Bosch BFG 3000">
 		</a>
-	</p>
-	<p class="price">
-	 <b class="old-price">22500 Р.</b>
-	 <a class="today-price" href="catalog-item.html">15500 P.</a>
-	</p>
+	 </p>
+	 <p class="price">
+	  <b class="old-price">22500 Р.</b>
+	  <a class="today-price" href="catalog-item.html">15500 P.</a>
+	 </p>
  </li>
 
  <li class="catalog-item">
 	<h3>Перфоратор Bosch BFG 6000</h3>
-	<p class="catalog-item-new">new</p>
+	<p class="catalog-item-new">new
+  </p>
 	<p class="catalog-item-image">
 	 <a href="catalog-item.html">
 		<img src="img/Product-5.jpg" width="220" height="165" alt="Перфоратор Bosch BFG 6000">
@@ -144,17 +145,17 @@
  </li>
 
  <li class="catalog-item">
-	<h3>Перфоратор Bosch BFG 2000</h3>
-	<p class="catalog-item-new">new</p>
-	<p class="catalog-item-image">
-	 <a href="catalog-item.html">
-	  <img src="img/Product-6.jpg" width="220" height="165" alt="Перфоратор Bosch BFG 2000">
-	 </a>
-	</p>
-  <p class="price">
+	 <h3>Перфоратор Bosch BFG 2000</h3>
+	 <p class="catalog-item-new">new</p>
+	 <p class="catalog-item-image">
+	   <a href="catalog-item.html">
+	    <img src="img/Product-6.jpg" width="220" height="165" alt="Перфоратор Bosch BFG 2000">
+	   </a>
+	 </p>
+   <p class="price">
 	 <a class="price-current" href="catalog-item.html">12500 P.</a>
-	</p>
- </li>
+	 </p>
+</li>
 
  <li class="catalog-item">
   <h3>Перфоратор Bosch BFG 3000</h3>
@@ -181,7 +182,7 @@
 	  <b class="old-price">30500 Р.</b>
 	  <a class="today-price" href="catalog-item.html">25500 P.</a>
    </p>
-  </li>
+</li>
 
   <li class="catalog-item">
    <h3>Перфоратор Bosch BFG 2000</h3>
@@ -195,8 +196,8 @@
      <b class="old-price"></b>
 	   <a class="price-current" href="catalog-item.html">12500 P.</a>
     </p>
-   </li>
-  </ul>
+  </li>
+</ul>
  </div>
 </section>
 
