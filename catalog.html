@@ -51,9 +51,9 @@
 <!-- Основное содержимое -->
 <main>
   <h1 class="visually-hidden">Каталог товаров</h1>
-  <!-- ??? правильноли вставлена иконка для домика? -->
-  <span class="icon-house"></span>
   <ul class="breadcrumbs">
+    <li><a href="index.html" class="home-link">Главная</a></li>
+    <!--To do. Иконка домик.потом у класса home-link добавить бэкграунд домик и сделать размер шрифта нулевой, чтобы надпись спряталась -->
     <li><a href="index.html">Каталог</a></li>
     <li><a href="index.html">Инструмент</a></li>
     <li class="breadcrumbs-current">Перфораторы</li>
@@ -102,13 +102,12 @@
 
 	 <li class="catalog-item">
 		<h3>Перфоратор Bosch BFG 2000</h3>
-    <!-- в некоторых есть блок "new".Добавила, но не уверена -->
-		<p class="catalog-item-new">new</p>
-		<p class="catalog-item-image">
+    <!-- To do. catalog-item__new =  в стилях для этого класса добавим плашку. Абзац с new нужно убрать. -->
+		<p class="catalog-item-image" class="catalog-item__new">
 		 <a href="catalog-item.html">
 			<img src="img/Product-3.jpg" width="220" height="165" alt="Перфоратор Bosch BFG 2000">
 		 </a>
-		</p>
+   </p>
 		<p class="price">
      <b class="old-price"></b>
 		 <a class="today-price" href="catalog-item.html">12500 P.</a>
@@ -131,9 +130,8 @@
 
  <li class="catalog-item">
 	<h3>Перфоратор Bosch BFG 6000</h3>
-	<p class="catalog-item-new">new
-  </p>
-	<p class="catalog-item-image">
+	<!-- To do. catalog-item__new =  в стилях для этого класса добавим плашку. Абзац с new нужно убрать. -->
+	<p class="catalog-item-image" class="catalog-item__new">
 	 <a href="catalog-item.html">
 		<img src="img/Product-5.jpg" width="220" height="165" alt="Перфоратор Bosch BFG 6000">
 	 </a>
@@ -159,8 +157,8 @@
 
  <li class="catalog-item">
   <h3>Перфоратор Bosch BFG 3000</h3>
-	<p class="catalog-item-new">new</p>
-	<p class="catalog-item-image">
+  <!-- To do. catalog-item__new =  в стилях для этого класса добавим плашку. Абзац с new нужно убрать. -->
+	<p class="catalog-item-image" class="catalog-item__new">
 	 <a href="catalog-item.html">
 	  <img src="img/Product-7.jpg" width="220" height="165" alt="Перфоратор Bosch BFG 3000">
 	 </a>
